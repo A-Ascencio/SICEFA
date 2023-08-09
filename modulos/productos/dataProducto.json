@@ -1,0 +1,278 @@
+[{
+  "id_producto":"1",
+  "nombre": "Ibuprofeno",
+  "nombre_generico": "Ibuprofeno",
+  "forma_farmaceutica": ["Tabletas", "Cápsulas", "Suspensión oral", "Gel tópico"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de tabletas, cápsulas, frascos de suspensión oral o tubos de gel tópico",
+  "principal_indicacion": "Aliviar el dolor, reducir la inflamación y bajar la fiebre en casos de dolores leves a moderados",
+  "contraindicaciones": [
+    "Alergia al ibuprofeno u otros AINEs",
+    "Úlceras estomacales o duodenales",
+    "Problemas de coagulación",
+    "Insuficiencia cardíaca grave",
+    "Insuficiencia renal grave",
+    "Tercer trimestre de embarazo"
+  ],
+  "concentracion": "800 mg",
+  "unidades_envase": "300 tabletas",
+  "precio_unitario": 209.07,
+  "foto": "https://gcfarma.caminoalexito.com.co/wp-content/uploads/2023/04/1-510x319.png",
+  "ruta_foto":"wp-content/uploads/2023/04/1-510x319.png",
+   "estatus":1,  
+            "inventario":{
+    "id_inventario":"1",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":30,
+    "sucursal:":{
+                "idSucursal":"1",
+                "nombre":"Altacioa"
+    }
+}
+},
+
+    {
+        "id_producto":"2",
+  "nombre": "Tylenol",
+  "nombre_generico": "Paracetamol",
+  "forma_farmaceutica": ["Tabletas", "Cápsulas", "Suspensión oral"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de tabletas, cápsulas o frascos de suspensión oral",
+  "principal_indicacion": "Aliviar el dolor y bajar la fiebre en casos de dolores leves a moderados",
+  "contraindicaciones": [
+    "Alergia al paracetamol",
+    "Insuficiencia hepática grave"
+  ],
+  "concentracion": "500 mg",
+  "unidades_envase": "20 tabletas",
+  "precio_unitario": 34.94,
+  "foto": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750110008809L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+  "ruta_foto":"gr/images/product-images/img_large/00750110008809L.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+   "estatus":1,
+   "id_inventarioFK":"2"         ,
+            "inventario":{
+    "id_inventario":"2",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":40,
+    "id_sucursalFK":"1"
+}
+},
+{
+    "id_producto":"3",
+  "nombre": "Prilosec",
+  "nombre_generico": "Omeprazol",
+  "forma_farmaceutica": ["Cápsulas", "Tabletas"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de cápsulas o tabletas",
+  "principal_indicacion": "Tratamiento de úlceras pépticas, reflujo gastroesofágico y síndrome de Zollinger-Ellison",
+  "contraindicaciones": [
+    "Alergia al omeprazol",
+    "Interacciones con otros medicamentos"
+  ],
+  "concentracion": "20 mg",
+  "unidades_envase": "14 cápsulas",
+  "precio_unitario": 49.87,
+   "foto":"https://i.ebayimg.com/thumbs/images/g/99oAAOSwvXdeThwN/s-l640.jpg",
+   "ruta_foto":"thumbs/images/g/99oAAOSwvXdeThwN/s-l640.jpg",
+   "estatus":1,
+   "id_inventarioFK":"3"         ,
+            "inventario":{
+    "id_inventario":"3",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":50,
+    "id_sucursalFK":"1"
+}
+},
+{
+    "id_producto":"4",
+  "nombre": "Amoxil",
+  "nombre_generico": "Amoxicilina",
+  "forma_farmaceutica": ["Cápsulas", "Suspensión oral"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de cápsulas o frascos de suspensión oral",
+  "principal_indicacion": "Tratamiento de infecciones bacterianas, como sinusitis, otitis media, bronquitis, neumonía, entre otros",
+  "contraindicaciones": [
+    "Alergia a la amoxicilina",
+    "Infecciones virales"
+  ],
+  "concentracion": "500 mg",
+  "unidades_envase": "12 cápsulas",
+  "precio_unitario": 135.90,
+   "foto":"https://www.plmconnection.com/plmservices/PharmaSearchEngine/Mexico/DEF/SIDEF/400x400/gsk_amoxil_caps_cj12.png",
+   "ruta_foto":"plmservices/PharmaSearchEngine/Mexico/DEF/SIDEF/400x400/gsk_amoxil_caps_cj12.png",
+   "estatus":1,
+   "id_inventarioFK":"4"         ,
+            "inventario":{
+    "id_inventario":"4",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":60,
+    "id_sucursalFK":"1"
+}
+},
+{
+    "id_producto":"5",
+  "nombre": "Claritin",
+  "nombre_generico": "Loratadina",
+  "forma_farmaceutica": ["Tabletas", "Jarabe"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de tabletas o frascos de jarabe",
+  "principal_indicacion": "Alivio de los síntomas de alergias, como la rinitis alérgica y la urticaria",
+  "contraindicaciones": [
+    "Alergia a la loratadina",
+    "Insuficiencia hepática grave"
+  ],
+  "concentracion": "10 mg",
+  "unidades_envase": "30 tabletas",
+  "precio_unitario": 40.00,
+   "foto":"https://m.media-amazon.com/images/I/91wU6zUF9uL._AC_UF1000,1000_QL80_.jpg",
+   "ruta_foto":"images/I/91wU6zUF9uL._AC_UF1000,1000_QL80_.jpg",
+   "estatus":1,
+   "id_inventarioFK":"5"         ,
+            "inventario":{
+    "id_inventario":"5",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":70,
+    "id_sucursalFK":"2"
+}
+},
+{
+    "id_producto":"6",
+  "nombre": "Zocor",
+  "nombre_generico": "Simvastatina",
+  "forma_farmaceutica": ["Tabletas"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de tabletas",
+  "principal_indicacion": "Tratamiento para reducir los niveles altos de colesterol y prevenir enfermedades cardiovasculares",
+  "contraindicaciones": [
+    "Alergia a la simvastatina",
+    "Insuficiencia hepática grave"
+  ],
+  "concentracion": "20 mg",
+  "unidades_envase": "28 tabletas",
+  "precio_unitario": 65.00,
+   "foto":"https://www.xalmeds.com/cdn/shop/products/B6D30CF7-E28B-4465-93CE-0135F7C03D3E.jpg",
+   "ruta_foto":"shop/products/B6D30CF7-E28B-4465-93CE-0135F7C03D3E.jpg",
+   "estatus":1,
+   "id_inventarioFK":"6"         ,
+            "inventario":{
+    "id_inventario":"6",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":80,
+    "id_sucursalFK":"2"
+}
+},
+{
+    "id_producto":"7",
+  "nombre": "Glucophage",
+  "nombre_generico": "Metformina",
+  "forma_farmaceutica": ["Tabletas"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de tabletas",
+  "principal_indicacion": "Tratamiento de la diabetes tipo 2 y el síndrome de ovario poliquístico",
+  "contraindicaciones": [
+    "Alergia a la metformina",
+    "Insuficiencia renal grave"
+  ],
+  "concentracion": "500 mg",
+  "unidades_envase": "60 tabletas",
+  "precio_unitario":140.00,
+   "foto":"https://www.movil.farmaciasguadalajara.com/wcsstore/FGCAS/wcs/products/614378_S_1280_F.jpg",
+   "ruta_foto":"wcsstore/FGCAS/wcs/products/614378_S_1280_F.jpg",
+   "estatus":1,
+   "id_inventarioFK":"7"         ,
+            "inventario":{
+    "id_inventario":"7",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":90,
+    "id_sucursalFK":"2"
+}
+},
+{
+    "id_producto":"8",
+  "nombre": "Ventolin",
+  "nombre_generico": "Salbutamol",
+  "forma_farmaceutica": ["Inhalador"],
+  "unidad_medida": "Microgramos (mcg)",
+  "presentacion": "Envases con una cierta cantidad de inhaladores",
+  "principal_indicacion": "Alivio de los síntomas del asma y otras enfermedades respiratorias obstructivas",
+  "contraindicaciones": [
+    "Alergia al salbutamol",
+    "No se debe usar como tratamiento de primera línea en el parto prematuro"
+  ],
+  "concentracion": "100 mcg",
+  "unidades_envase": "1 inhalador",
+  "precio_unitario":50.00,
+   "foto":"https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750104316248L.jpg",
+   "ruta_foto":"i5.walmartimages.com.mx/gr/images/product-images/img_large/00750104316248L.jpg",
+   "estatus":1,
+   "id_inventarioFK":"8"         ,
+            "inventario":{
+    "id_inventario":"8",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":100,
+    "id_sucursalFK":"3"
+}
+},
+{
+    "id_producto":"9",
+  "nombre": "Prozac",
+  "nombre_generico": "Fluoxetina",
+  "forma_farmaceutica": ["Cápsulas"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de cápsulas",
+  "principal_indicacion": "Tratamiento de la depresión, trastorno obsesivo-compulsivo y trastornos de pánico",
+  "contraindicaciones": [
+    "Alergia a la fluoxetina",
+    "Uso concomitante con inhibidores de la monoaminooxidasa (IMAO)"
+  ],
+  "concentracion": "20 mg",
+  "unidades_envase": "28 cápsulas",
+  "precio_unitario": 68.50,
+   "foto":"https://www.fahorro.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7501082212006.jpg",
+   "ruta_foto":"media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7501082212006.jpg",
+   "estatus":1,
+   "id_inventarioFK":"9"         ,
+            "inventario":{
+    "id_inventario":"9",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":110,
+    "id_sucursalFK":"3"
+}
+},
+{
+    "id_producto":"10",
+  "nombre": "Valium",
+  "nombre_generico": "Diazepam",
+  "forma_farmaceutica": ["Tabletas", "Solución inyectable"],
+  "unidad_medida": "Miligramos (mg)",
+  "presentacion": "Envases con una cierta cantidad de tabletas o ampollas de solución inyectable",
+  "principal_indicacion": "Tratamiento de la ansiedad, trastornos convulsivos y abstinencia alcohólica",
+  "contraindicaciones": [
+    "Alergia al diazepam",
+    "Miastenia gravis",
+    "Insuficiencia respiratoria grave"
+  ],
+  "concentracion": "10 mg",
+  "unidades_envase": "20 tabletas",
+  "precio_unitario": 38.50,
+   "foto":"https://www.fahorro.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7501009009269.png",
+   "ruta_foto":"media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/7/5/7501009009269.png",
+   "estatus":1,
+   "id_inventarioFK":"10"         ,
+            "inventario":{
+    "id_inventario":"10",
+    "estatus":"1",
+    "fecha_actualizacion":"2023-07-31",
+    "cantidad":120,
+    "id_sucursalFK":"3"
+}
+}]

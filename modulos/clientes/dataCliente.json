@@ -1,0 +1,212 @@
+[
+    {
+        "persona":
+                {
+        "nombre": "Siro",
+        "apellidoPaterno": "Lazo",
+        "apellidoMaterno": "Aveiro",
+        "genero":"Masculino",
+        "fechaNacimiento":"1988-02-20",
+        "rfc": "389JKJRPTKF",
+        "curp": "HIUHEIUJJT",
+        "fotos":"https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+        "domicilio":"Juan de la Barrera 12",
+        "codigoPostal":"38110",
+        "ciudad":"Apaseo el Grande",
+        "estado":"Guanajuato",
+        "telefono":"4772533783",
+        "email":"email10@gmail.com"
+    },
+        "fechaRegistro":"2023-06-01",
+        "estatus":"0"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Luis Antonio",
+        "apellidoPaterno": "Manrriquez",
+        "apellidoMaterno": "Manrriquez",
+        "genero":"Masculino",
+        "fechaNacimiento":"2000-01-19",
+        "rfc": "MXNIIU82HDS",
+        "curp": "LOPRUY76DJ",
+        "fotos":"https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+        "domicilio":"San Jeronimo 78",
+        "codigoPostal":"37102",
+        "ciudad":"Celaya",
+        "estado":"Guanajuato",
+        "telefono":"4776725434",
+        "email":"email15@gmail.com"
+    },
+        "fechaRegistro":"2023-06-02",
+        "estatus":"0"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Jose Fabian",
+        "apellidoPaterno": "Arteaga",
+        "apellidoMaterno": "Ramos",
+        "genero":"Masculino",
+        "fechaNacimiento":"2002-01-06",
+        "rfc": "N48589U4TJT",
+        "curp": "JIJE8945UT",
+        "fotos":"https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+        "domicilio":"San Jeronimo 142",
+        "codigoPostal":"37102",
+        "ciudad":"Celaya",
+        "estado":"Guanajuato",
+        "telefono":"4775663524",
+        "email":"email9@gmail.com"
+    },
+        "fechaRegistro":"2023-06-03",
+        "estatus":"0"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Paulina Nallely",
+        "apellidoPaterno": "Hernandes",
+        "apellidoMaterno": "Cortez",
+        "genero":"Femenino",
+        "fechaNacimiento":"1996-02-04",
+        "rfc": "NSIUIJ389U8",
+        "curp": "JI8U982938",
+        "fotos": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+        "domicilio":"Morelos 29",
+        "codigoPostal":"37101",
+        "ciudad":"Leon",
+        "estado":"Guanajuato",
+        "telefono":"4774736674",
+        "email":"email8@gmail.com"
+    },
+        "fechaRegistro":"2023-06-04",
+        "estatus":"1"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Luis Angel",
+        "apellidoPaterno": "Ramos",
+        "apellidoMaterno": "Marquez",
+        "genero":"Masculino",
+        "fechaNacimiento":"1999-03-12",
+        "rfc": "HSIU2WY82UJ",
+        "curp": "JSUIUY72HS",
+        "fotos": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+        "domicilio":"Insurgentes 190",
+        "codigoPostal":"37104",
+        "ciudad":"Ocampo",
+        "estado":"Guanajuato",
+        "telefono":"4772562537",
+        "email":"email5@gmail.com"
+    },
+        "fechaRegistro":"2023-06-05",
+        "estatus":"1"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Juan Carlos",
+        "apellidoPaterno": "Ramirez",
+        "apellidoMaterno": "Montes",
+        "genero":"Masculino",
+        "fechaNacimiento":"1988-02-20",
+        "rfc": "NJHS82U29UE",
+        "curp": "JIJW09093I",
+        "fotos":"https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+        "domicilio":"Florida 29",
+        "codigoPostal":"37105",
+        "ciudad":"Silao",
+        "estado":"Guanajuato",
+        "telefono":"4776253524",
+        "email":"email6@gmail.com"
+    },
+        "fechaRegistro":"2023-06-06",
+        "estatus":"1"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Julian",
+        "apellidoPaterno": "Vazquez",
+        "apellidoMaterno": "Lopez",
+        "genero":"Masculino",
+        "fechaNacimiento":"2005-08-02",
+        "rfc": "J2U29U298U3",
+        "curp": "JI929092IJ",
+        "fotos":"https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+        "domicilio":"Hacienda Echeveste 100",
+        "codigoPostal":"37100",
+        "ciudad":"Abasolo",
+        "estado":"Guanajuato",
+        "telefono":"4772635241",
+        "email":"email7@gmail.com"
+    },
+        "fechaRegistro":"2023-06-07",
+        "estatus":"1"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Jose Luis",
+        "apellidoPaterno": "Lozano",
+        "apellidoMaterno": "Paredez",
+        "genero":"Masculino",
+        "fechaNacimiento":"2004-11-09",
+        "rfc": "HUHA7E734DH",
+        "curp": "JSU7437RY3",
+        "fotos":"https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+        "domicilio":"San Jeronimo 102",
+        "codigoPostal":"37102",
+        "ciudad":"Celaya",
+        "estado":"Guanajuato",
+        "telefono":"4775653234",
+        "email":"email3@gmail.com"
+    },
+        "fechaRegistro":"2023-06-08",
+        "estatus":"1"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Paula",
+        "apellidoPaterno": "Rodriguez",
+        "apellidoMaterno": "Lopez",
+        "genero":"Femeninno",
+        "fechaNacimiento":"1990-12-02",
+        "rfc": "JNSKASUIU8W",
+        "curp": "JASIJO8786",
+        "fotos": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+        "domicilio":"Valle de Leon 20",
+        "codigoPostal":"37101",
+        "ciudad":"Leon",
+        "estado":"Guanajuato",
+        "telefono":"4774325674",
+        "email":"email2@gmail.com"
+    },
+        "fechaRegistro":"2023-06-09",
+        "estatus":"1"
+    },
+    {
+        "persona":
+                {
+        "nombre": "Noemi Maria",
+        "apellidoPaterno": "Valadez",
+        "apellidoMaterno": "Pedroza",
+        "genero":"Femenino",
+        "fechaNacimiento":"1991-02-20",
+        "rfc": "JAS72HHE278",
+        "curp": "HKSIIU34JF",
+        "fotos": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+        "domicilio":"Granjas Echeveste 23",
+        "codigoPostal":"37103",
+        "ciudad":"Apaseo el Grande",
+        "estado":"Guanajuato",
+        "telefono":"4772565463",
+        "email":"email4@gmail.com"
+    },
+        "fechaRegistro":"2023-06-10",
+        "estatus":"1"
+    }
+]

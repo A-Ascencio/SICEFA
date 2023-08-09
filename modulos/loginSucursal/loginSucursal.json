@@ -1,0 +1,29 @@
+{
+    "user":[
+        {
+            "username": "MLP20220515",
+            "password": "MLP20220515",
+            "tipo": "administrador"
+        },
+         {
+            "username": "PMA20210718",
+            "password": "PMA20210718",
+            "tipo": "empleado"
+        },
+         {
+            "username": "LLP20201210",
+            "password": "LLP20201210",
+            "tipo": "empleado"
+        },
+         {
+            "username": "LPL20230205",
+            "password": "LPL20230205",
+            "tipo": "empleado"
+        },
+         {
+            "username": "MVP20221120",
+            "password": "MVP20221120",
+            "tipo": "empleado"
+        }
+    ]
+}

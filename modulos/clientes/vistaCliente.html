@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<div class="row">
+    <div class="col-6"> 
+        <div class="row" style="padding-top: 30px; padding-left: 20px;height:100%;">
+            <form class="col-12" style="background-color: #25cff2"> 
+                <div style="text-align: center;padding-top: 20px">
+
+                    <p>Seleccione la opcion que quiere realizar y rellene los campos correspondientes</p></div><br>  
+                <label for="nombre" style="margin-left: 10px" class="text-break">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label style="margin-left: 10px" class="text-break">Apellido Materno:</label>
+                <input type="text" id="apellido_materno" >
+
+                <label style="margin-left: 10px" class="text-break">Apellido Paterno:</label>
+                <input type="text" id="apellido_paterno" >
+
+                <label style="margin-left: 10px" class="text-break">Genero:</label>
+                <input type="text" id="genero">
+
+                <label style="margin-left: 10px" class="text-break">Fecha Nacimiento</label>
+                <input type="text" id="fecha_nacimiento">
+
+                <label style="margin-left: 10px" class="text-break">RFC</label>
+                <input type="text" id="rfc">
+
+                <label style="margin-left: 10px" class="text-break">Curp</label>
+                <input type="text" id="curp">
+
+                <label style="margin-left: 10px" class="text-break">Domicilio</label>
+                <input type="text" id="domicilio">
+
+                <label style="margin-left: 10px" class="text-break">Codigo Postal</label>
+                <input type="text" id="codigo_postal">
+
+                <label style="margin-left: 10px" class="text-break">Telefono</label>
+                <input type="text" id="telefono">
+
+                <label style="margin-left: 10px" class="text-break">Email</label>
+                <input type="text" id="email">
+
+                <label style="margin-left: 10px" class="text-break">Estado</label>
+                <input type="text" id="estado">
+
+                <label style="margin-left: 10px" class="text-break">Ciudad</label>
+                <input type="text" id="ciudad">
+
+                <button type="button" class="text-break" id="agregar" onclick="moduloCliente.addCliente()" style="background-color: greenyellow; width: 50%;margin-left: 255px">agregar</button><br><br>
+                
+                <button type="reset" class="text-break" id="limpiar" style="background-color: gold; width: 50%;margin-left: 255px">limpiar</button><br><br>
+
+                <button type="button" class="text-break" id="actualizar" onclick="moduloCliente.modificarCliente()" style="background-color: sandybrown; width: 50%;margin-left: 255px">actualizar</button><br><br>
+
+                <button  type="button" class="text-break" id="eliminar" onclick="moduloCliente.deleteCliente()" style="background-color: salmon; width: 50%;margin-left: 255px">eliminar</button><br>
+
+            </form>
+        </div>
+    </div>
+    <div class="col-6"> 
+
+        <div style="background-color: #6ea8fe">
+            <div class="row g-4 align-items-center" style="padding-bottom: 30px; margin-top: 30px; padding-left: 30px; padding-right: 30px">
+                <div class="col-auto">
+                    <label for="buscar" class="col-form-label">Buscar Cliente</label>
+                </div>
+                <div class="col-auto">
+                    <input class="form-control me-2" id="txtbuscar" style="width: auto" type="text" placeholder="Search" aria-label="Search">
+                </div>
+                <div class="col-auto">
+                    <button type="button" onclick="moduloCliente.buscar()" id="buscar_click">Buscar</button>
+                </div>
+                <div class="form-check form-switch">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Clientes inactivos</label>
+                <input class="form-check-input" type="checkbox" id="checkestatus" onclick="moduloCliente.revisarSeleccion()">
+            </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px; padding-left: 30px; padding-right: 30px">
+                <div class="col-12"> 
+                    <div class="table-responsive small">
+                        <table class="table table-striped table-sm" style="border: 1px solid black">
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="background-color: #20c997">Nombre</th>
+                                    <th scope="col" style="background-color: #20c997">Apellido Paterno</th>
+                                    <th scope="col" style="background-color: #20c997">Apellido Materno</th>
+                                    <th scope="col" style="background-color: #20c997">Genero</th>
+                                    <th scope="col" style="background-color: #20c997">Fecha nacimiento</th>
+                                    <th scope="col" style="background-color: #20c997">RFC</th>
+                                    <th scope="col" style="background-color: #20c997">Curp</th>
+                                    <th scope="col" style="background-color: #20c997">Foto</th>
+                                    <th scope="col" style="background-color: #20c997">Domicilio</th>
+                                    <th scope="col" style="background-color: #20c997">Codigo postal</th>
+                                    <th scope="col" style="background-color: #20c997">Ciudad</th>
+                                    <th scope="col" style="background-color: #20c997">Estado</th>
+                                    <th scope="col" style="background-color: #20c997">Telefono</th>
+                                    <th scope="col" style="background-color: #20c997">Fecha ingreso</th>
+                                    <th scope="col" style="background-color: #20c997">Email</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbCliente"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

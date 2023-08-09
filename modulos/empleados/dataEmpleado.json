@@ -1,0 +1,343 @@
+[
+    {
+        "empleado": {
+            "salarioBruto": "2500.5",
+            "fechaIngreso": "2022-05-15",
+            "puesto": "Gerente",
+            "codigoEmpleado":"MLP20220515"
+        },
+
+        "usuario": {
+            "contraseña": "MLP20220515",
+            "tipoUsuario": "ADMS",
+            "nombreUsuario": "MLP20220515"
+        },
+        "persona": {
+            "codigoPostal": "37163",
+            "curp": "NXIUWU8WUJ",
+            "rfc": "MOIAU98U2UJ",
+            "calle": "Villa Magna",
+            "colonia": "San Juan Bosco",
+            "numero": "1093",
+            "foto": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+            "ciudad": "Apaseo el Grande",
+            "estado": "Guanajuato",
+            "nombre": "Maria de los Angeles",
+            "apellidoPaterno": "Lopez",
+            "apellidoMaterno": "Pedroza",
+            "fechaNacimiento": "2001-12-30",
+            "telefono": "4778265463",
+            "email": "email16@gmail.com",
+            "genero": "F",
+            "estatus": 1
+        }
+        
+    },
+    {
+        "empleado": {
+
+            "salarioBruto":" 1800.75",
+            "fechaIngreso": "2021-07-18",
+            "puesto": "Vendedor",
+            "codigoEmpleado":"PMA20210718"
+            
+        },
+        "usuario": {
+            "contraseña": "PMA20210718",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "PMA20210718"
+        },
+        "persona": {
+            "codigoPostal": "37101",
+            "curp": "OISJ88282O",
+            "rfc": "SMOISLW290K",
+            "calle": "Carmona",
+            "colonia": "Valles",
+            "numero": "28",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Ocampo",
+            "estado": "Guanajuato",
+            "nombre": "Paolo Ignacio",
+            "apellidoPaterno": "Millas",
+            "apellidoMaterno": "Ambriz",
+            "fechaNacimiento": "1998-12-02",
+            "telefono": "4774213674",
+            "email": "email20@gmail.com",
+            "genero": "M",
+            "estatus": 1
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto":" 2100.25",
+            "fechaIngreso": "2020-12-10",
+            "puesto": "Asistente",
+            "codigoEmpleado":"LLP20201210"
+            
+        },
+        "usuario": {
+            "contraseña": "LLP20201210",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "LLP20201210"
+        },
+        "persona": {
+            "codigoPostal": "37689",
+            "curp": "ISJU28U3EH",
+            "rfc": "LDJEOIE3098",
+            "calle": "Mares",
+            "colonia": "San Miguel",
+            "numero": "12",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Celaya",
+            "estado": "Guanajuato",
+            "nombre": "Luis Antonio",
+            "apellidoPaterno": "Lozano",
+            "apellidoMaterno": "Paredez",
+            "fechaNacimiento": "2001-01-09",
+            "telefono": "4775893234",
+            "email": "email21@gmail.com",
+            "genero": "M",
+            "estatus": 1
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "3000",
+            "fechaIngreso": "2023-02-05",
+            "puesto": "Supervisor",
+            "codigoEmpleado":"LPL20230205"
+            
+        },
+        "usuario": {
+            "contraseña": "LPL20230205",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "LPL20230205"
+        },
+        "persona": {
+            "codigoPostal": "37624",
+            "curp": "INDIUEUEU9",
+            "rfc": "LPLOKOWIJWN",
+            "calle": "Carzo",
+            "colonia": "Insurgentes",
+            "numero": "129",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Ocampo",
+            "estado": "Guanajuato",
+            "nombre": "Luis Angel",
+            "apellidoPaterno": "Perez",
+            "apellidoMaterno": "Lozano",
+            "fechaNacimiento": "2000-12-12",
+            "telefono": "4779276537",
+            "email": "email17@gmail.com",
+            "genero": "M",
+            "estatus": 1
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "1900.8",
+            "fechaIngreso": "2022-11-20",
+            "puesto": "Cajero",
+            "codigoEmpleado":"MVP20221120"
+            
+        },
+        "usuario": {
+            "contraseña": "MVP20221120",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "MVP20221120"
+        },
+        "persona": {
+            "codigoPostal": "37875",
+            "curp": "IJWSU98287",
+            "rfc": "NSJWHSY9S8Y",
+            "calle": "Oro",
+            "colonia": "Granjas Echeveste",
+            "numero": "2983",
+            "foto": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+            "ciudad": "Apaseo el Grande",
+            "estado": "Guanajuato",
+            "nombre": "Mariel Guadalupe",
+            "apellidoPaterno": "Valdez",
+            "apellidoMaterno": "Paredez",
+            "fechaNacimiento": "1989-12-30",
+            "telefono": "4779865463",
+            "email": "email22@gmail.com",
+            "genero": "F",
+            "estatus": 1
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "2200.3",
+            "fechaIngreso": "2022-03-12",
+            "puesto": "Gerente",
+            "codigoEmpleado":"JRP20220312"
+            
+        },
+        "usuario": {
+            "contraseña": "JRP20220312",
+            "tipoUsuario": "AMDC",
+            "nombreUsuario": "JRP20220312"
+        },
+        "persona": {
+            "codigoPostal": "37875",
+            "curp": "JSSIW9W982",
+            "rfc": "LPQARFQTF66",
+            "calle": "La Presa",
+            "colonia": "Florida",
+            "numero": "167",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Leon",
+            "estado": "Guanajuato",
+            "nombre": "Juan Antono",
+            "apellidoPaterno": "Ramirez",
+            "apellidoMaterno": "Paredez",
+            "fechaNacimiento": "1995-11-14",
+            "telefono": "4776013524",
+            "email": "email18@gmail.com",
+            "genero": "M",
+            "estatus": 1
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "2800.6",
+            "fechaIngreso": "2023-04-05",
+            "puesto": "Vendedor",
+            "codigoEmpleado":"CLM20230405"
+            
+        },
+        "usuario": {
+            "contraseña": "CLM20230405",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "CLM20230405"
+        },
+        "persona": {
+            "codigoPostal": "37125",
+            "curp": "HSIJUW98U8",
+            "rfc": "NDIHUH88EJE",
+            "calle": "Cuanca",
+            "colonia": "San Jeronimo",
+            "numero": "2119",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Silao",
+            "estado": "Guanajuato",
+            "nombre": "Carlos",
+            "apellidoPaterno": "Lopez",
+            "apellidoMaterno": "Martinez",
+            "fechaNacimiento": "1995-11-24",
+            "telefono": "4771053524",
+            "email": "email24@gmail.com",
+            "genero": "M",
+            "estatus": 0
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "2100.1",
+            "fechaIngreso": "2021-07-18",
+            "puesto": "Asistente",
+            "codigoEmpleado":"LRM20210718"
+            
+        },
+        "usuario": {
+            "contraseña": "LRM20210718",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "LRM20210718"
+        },
+        "persona": {
+            "codigoPostal": "37624",
+            "curp": "JNNISHWY87",
+            "rfc": "NS83Y87YHJN",
+            "calle": "Carmona",
+            "colonia": "Insurgentes",
+            "numero": "1111",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Ocampo",
+            "estado": "Guanajuato",
+            "nombre": "Luis Miguel",
+            "apellidoPaterno": "Ramirez",
+            "apellidoMaterno": "Montes",
+            "fechaNacimiento": "1982-09-12",
+            "telefono": "4778962537",
+            "email": "email23@gmail.com",
+            "genero": "M",
+            "estatus": 0
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "3200.7",
+            "fechaIngreso": "2020-10-02",
+            "puesto": "Supervisor",
+            "codigoEmpleado":"PRT20201002"
+            
+        },
+        "usuario": {
+            "contraseña": "PRT20201002",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "PRT20201002"
+        },
+        "persona": {
+            "codigoPostal": "37689",
+            "curp": "KOS9020202",
+            "rfc": "ZNSIOI2299J",
+            "calle": "Carzo",
+            "colonia": "Hacienda Echeveste",
+            "numero": "127",
+            "foto": "https://mccbrokerage.com/wp-content/uploads/Generic-Headshot-for-Website.png",
+            "ciudad": "Silao",
+            "estado": "Guanajuato",
+            "nombre": "Pamela Luisa",
+            "apellidoPaterno": "Rizo",
+            "apellidoMaterno": "Torres",
+            "fechaNacimiento": "1998-09-02",
+            "telefono": "4771983928",
+            "email": "email19@gmail.com",
+            "genero": "F",
+            "estatus": 0
+        } 
+    },
+    {
+        "empleado": {
+
+            "salarioBruto": "2000.4",
+            "fechaIngreso": "2022-09-25",
+            "puesto": "Cajero",
+            "codigoEmpleado":"CRL20220925"
+            
+        },
+        "usuario": {
+            "contraseña": "CRL20220925",
+            "tipoUsuario": "EMPS",
+            "nombreUsuario": "CRL20220925"
+        },
+        "persona": {
+            "codigoPostal": "37105",
+            "curp": "SOIJ98U28E",
+            "rfc": "NDIJIDJOEJE",
+            "calle": "Cuanca",
+            "colonia": "Cascada",
+            "numero": "1829",
+            "foto": "https://th.bing.com/th/id/OIP.rC2HdBb55el0DwZ713T9HgHaHa?pid=ImgDet&rs=1",
+            "ciudad": "Silao",
+            "estado": "Guanajuato",
+            "nombre": "Carlos",
+            "apellidoPaterno": "Ramirez",
+            "apellidoMaterno": "Lozano",
+            "fechaNacimiento": "1885-10-14",
+            "telefono": "4773673524",
+            "email": "email30@gmail.com",
+            "genero": "M",
+            "estatus": 0
+        } 
+    }
+
+]

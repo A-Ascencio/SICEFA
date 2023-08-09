@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<div class="row">
+    <div class="col-6"> 
+        <div class="row" style="padding-top: 30px; padding-left: 20px;height:100%;">
+            <form class="col-12" style="background-color: #25cff2"> 
+                <div style="text-align: center;padding-top: 20px">
+                    
+                    <p>Seleccione la opcion que quiere realizar y rellene los campos correspondientes</p></div><br>  
+                <label for="nombre" style="margin-left: 10px" class="text-break">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label style="margin-left: 10px" class="text-break">Nombre Generico:</label>
+                <input type="text" id="nm_generico"><br>
+                
+                <label style="margin-left: 10px" class="text-break">forma farmaceutica:</label>
+                <input type="text" id="fm_farmaceutica" >
+
+                <label style="margin-left: 10px" class="text-break">unidad de medida:</label>
+                <input type="text" id="und_medida" ><br>
+                <label style="margin-left: 10px" class="text-break">presentacion:</label>
+                <input type="text" id="presentacion">
+
+                <label style="margin-left: 10px" class="text-break">principal indicacion</label>
+                <input type="text" id="prn_indicacion"><br>
+                
+                <label style="margin-left: 10px" class="text-break">contraindicaciones</label>
+                <input type="text" id="contraindicaciones">
+
+                <label style="margin-left: 10px" class="text-break">concentracion</label>
+                <input type="text" id="concentracion"><br>
+                <label style="margin-left: 10px" class="text-break">unidades por envase</label>
+                <input type="text" id="und_envase">
+                <button type="button" id="agregar" onclick="moduloProdctos2.addProducto()" style="background-color: greenyellow; width: 50%;margin-left: 10px">agregar</button><br>
+
+                <label style="margin-left: 10px" class="text-break">precio unitario</label>
+                <input type="text" id="prc_unitario">
+                <button type="reset" id="limpiar" style="background-color: gold; width: 50%;margin-left: 10px">limpiar</button><br>
+                
+                <label style="margin-left: 10px" class="text-break">foto</label>
+                <input type="text" id="foto">
+                <button type="button" id="actualizar"  onclick="moduloProdctos2.modificarProducto()" style="background-color: sandybrown; width: 50%;margin-left: 10px">actualizar</button><br>
+
+                <label style="margin-left: 10px" class="text-break">ruta foto</label>
+                <input type="text" id="ruta_foto">
+                <button type="button" id="eliminar" onclick="moduloProdctos2.deleteProducto()" style="background-color: salmon; width: 50%;margin-left: 10px">eliminar</button><br>
+                
+            </form>
+        </div>
+    </div>
+    <div class="col-6"> 
+
+        <div style="background-color: #6ea8fe">
+            <div class="row g-3 align-items-center" style="padding-bottom: 30px; margin-top: 30px; padding-left: 30px; padding-right: 30px">
+                <div class="col-auto">
+                    <label for="buscar" class="col-form-label">Buscar producto</label>
+                </div>
+                <div class="col-auto">
+                    <input class="form-control me-2" style="width: auto" id="buscar" type="text" placeholder="Search">
+                </div>
+                <div class="col-auto">
+                    <button type="button" id="buscar_click" onclick="moduloProdctos2.buscarProductos()">Buscar</button>
+                </div>
+                <div class="col-auto">
+                <input class="btn btn-info rounded-pill px-3 " type="checkbox" id="clickestatus" onclick="moduloProdctos2.validarEstatus()"  value="value">productos activos
+            </div>
+                </div>
+            <div class="row" style="padding-bottom: 30px; padding-left: 30px; padding-right: 30px">
+                <div class="col-12"> 
+                    <div class="table-responsive small" style="height: 550px">
+                        <table class="table table-striped table-sm" style="border: 1px solid black;" >
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="background-color: #20c997">Foto</th>
+                                    <th scope="col" style="background-color: #20c997">nombre</th>
+                                    <th scope="col" style="background-color: #20c997">nombre generico</th>
+                                    <th scope="col" style="background-color: #20c997">forma farmaceutica</th>
+                                    <th scope="col" style="background-color: #20c997">unidad medida</th>
+                                    <th scope="col" style="background-color: #20c997">presentacion</th>
+                                    <th scope="col" style="background-color: #20c997">principal indicacion</th>
+                                    <th scope="col" style="background-color: #20c997">contraindicaciones</th>
+                                    <th scope="col" style="background-color: #20c997">concentracion</th>
+                                    <th scope="col" style="background-color: #20c997">unidades envase</th>
+                                    <th scope="col" style="background-color: #20c997">precio unitario</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tblProductos"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
