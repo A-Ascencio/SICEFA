@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>SICEFA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style/fontawesome-free-6.4.0-web/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+        <link href="style/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style/fontawesome-free-6.4.0-web/css/brands.css" rel="stylesheet" type="text/css"/>
+        <link href="style/fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/jpg" href="img/icono.jpeg" />
+        <style>
+            td,th{
+                border: 1px solid black
+            }
+
+            label {
+                width: 15%;
+                margin-bottom: 8px;
+                color: #333;
+            }
+            input[type="text"]{
+                width: 25%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="d-flex" style="background: #20c997">
+                <div class="p-2 flex-grow-1" style="padding-left: 30px">
+                    
+                    <a  class="nav-link text-white" href="../../../sicefasucursal/index.html" >
+                                   
+                                
+                    <img src="../img/icono.jpeg" width="90" height="80"/>
+                    </a>
+                </div>  
+                <div class="p-2 flex-grow-1" style="margin-top: 30px">
+                    <h1><b>SUCURSAL</b></h1>
+                </div>
+                <div class="p-2 rounded-circle" style="padding-left: 30px">
+                    <button type="button" id="user" style="background: #20c997;border-color:#20c997">
+                        <img src="img/Perfil.png" width="80" height="80"/></button>
+                </div>  
+
+            </div>
+
+
+            <div style="padding-top: 30px">
+                <div class="container" style="background: #20c997; border-radius: 30px">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+
+                        <ul class="nav nav-tabs col-lg-auto justify-content-center">
+                            <li class="nav-item">
+                                <a href="principalCentral.html" class="nav-link text-white" >
+                                    <i style="color: #ffff80;"></i> Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="" class="nav-link text-secondary">
+                                    <i style="color: #eac766;"></i> Gestion ventas
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary">
+                                    <i style="color: #ffff80;"></i> Gestion Pedidos de compra
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a  class="nav-link text-white" href="#" onclick="cargarModuloEmpleados()">
+                                    <i style="color: #e2f64c;"></i> Gestion empleados
+                                </a>
+                            </li>                       
+                            <li class="nav-item">
+                                <a  class="nav-link text-secondary" href="#" onclick="cargarModuloProdctos()">
+                                    <i  style="color: #e2f64c;"></i>Consultas de productos
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-white"  onclick="cargarModuloClientes()" >
+                                    <i  style="color: #eac766;"></i> Gestion clientes
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="container-fluid" id="contenedorPrincipal" style="padding-bottom: 30px;">
+            <div class="row">
+    <div class="col-6"> 
+        <div class="row" style="padding-top: 30px; padding-left: 20px;height:100%;">
+            <form class="col-12" style="background-color: #25cff2"> 
+                <div style="text-align: center;padding-top: 20px">
+
+                   <p>Seleccione la opcion que quiere realizar y rellene los campos correspondientes</p></div><br>  
+                <label style="margin-left: 10px" class="text-break">Nombre:</label>
+                <input type="text" id="txtnombre" name="txtnombre" required>
+
+                <label  style="margin-left: 10px" class="text-break">Apellido Materno:</label>
+                <input type="text" id="txtapellido_materno" >
+
+                <label style="margin-left: 10px" class="text-break">Apellido Paterno:</label>
+                <input type="text" id="txtapellido_paterno" >
+
+                <label  style="margin-left: 10px" class="text-break">Genero:</label>
+                <input type="text" id="txtgenero">
+
+                <label style="margin-left: 10px" class="text-break">Fecha Nacimiento</label>
+                <input type="text" id="txtfecha_nacimiento">
+
+                <label style="margin-left: 10px" class="text-break">RFC</label>
+                <input type="text" id="txtrfc">
+
+                <label style="margin-left: 10px" class="text-break">Curp</label>
+                <input type="text" id="txtcurp">
+
+                <label style="margin-left: 10px" class="text-break">Calle</label>
+                <input type="text" id="txtcalle">
+                
+                <label style="margin-left: 10px" class="text-break">Colonia</label>
+                <input type="text" id="txtcolonia"><!-- -->
+                
+                <label style="margin-left: 10px" class="text-break">NO.</label>
+                <input type="text" id="txtno">
+
+                <label style="margin-left: 10px" class="text-break">Codigo Postal</label>
+                <input type="text" id="txtcodigo_postal">
+
+                <label style="margin-left: 10px" class="text-break">Telefono</label>
+                <input type="text" id="txttelefono">
+
+                <label style="margin-left: 10px" class="text-break">Puesto</label>
+                <input type="text" id="txtpuesto">
+
+                <label style="margin-left: 10px" class="text-break">Email</label>
+                <input type="text" id="txtemail">
+
+                <label style="margin-left: 10px" class="text-break">Estado</label>
+                <input type="text" id="txtestado">
+                
+                <label style="margin-left: 10px" class="text-break">Salario Bruto Mensual</label>
+                <input type="text" id="txtsalario">
+                
+                <label style="margin-left: 10px" class="text-break">Ciudad</label>
+                <input type="text" id="txtciudad">
+
+                <button type="button" id="agregar" style="background-color: greenyellow; width: 50%; margin-left: 265px; margin-bottom: 20px" onclick="moduloEmpleado.addEmpleado()">agregar</button><br>
+
+                <button type="reset" id="limpiar" style="background-color: gold; width: 50%;margin-left: 265px; margin-bottom: 20px" onclick="limpiarCampos()">limpiar</button><br>
+
+                <button type="button" id="actualizar" style="background-color: sandybrown; width: 50%;margin-left: 265px; margin-bottom: 20px" onclick="moduloEmpleado.modificarEmpleado()">actualizar</button><br>
+
+                <button  type="button" id="eliminar" style="background-color: salmon; width: 50%;margin-left: 265px; margin-bottom: 20px" onclick="moduloEmpleado.deleteEmpleado()">eliminar</button><br>
+                 <input type="checkbox" id="chkStatus" onclick="moduloEmpleado.revisarSeleccion()">Clientes inactivos
+                
+            </form>
+        </div>
+    </div>
+    <div class="col-6"> 
+
+        <div style="background-color: #6ea8fe">
+            <div class="row g-3 align-items-center" style="padding-bottom: 30px; margin-top: 30px; padding-left: 30px; padding-right: 30px">
+                
+                <div class="col-auto">
+                    <label for="buscar" class="col-form-label">Buscar sucursal</label>
+                </div>
+                <div class="col-auto">
+                    <input class="form-control me-2" type="search" placeholder="search"  id="txtdatabusqueda">
+                    
+                </div>
+                <div class="col-auto">
+                    <input type="button" onclick="moduloEmpleado.buscarEmpleado(1)">
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 30px; padding-left: 30px; padding-right: 30px">
+                <div class="col-12"> 
+                    <div class="table-responsive small">
+                        <table class="table table-striped table-sm" style="border: 1px solid black">
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="background-color: #20c997">Codigo Empleado</th>
+                                    <th scope="col" style="background-color: #20c997">Nombre Empleado</th>
+                                    <th scope="col" style="background-color: #20c997">Direccion</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                    <th scope="col" style="background-color: #20c997">x</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tblEmpleado"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </section>
+        <footer>
+            <div class="px-3 py-2 text-bg-dark border-bottom text-center"></div>
+        </footer> 
+        <script src="style/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="js/main_clientes.js" type="text/javascript"></script>
+        <script src="js/main_producto.js" type="text/javascript"></script>
+        <script src="js/main_empleados.js" type="text/javascript"></script>
+    </body>
+</html>
